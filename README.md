@@ -24,7 +24,7 @@ currently featured; the other projects are placeholder images with no links.
 
 ## Image:
 
-<img src="" alt="personal portfolio webpage" width="200"/>
+<img src="https://github.com/lornaburns/personal-portfolio/blob/main/assets/images/personal-portfolio-screenshot.png?raw=true" alt="personal portfolio webpage" width="200"/>
 
 ## Credits:
 
