@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/eed38a855a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sacramento&family=Vast+Shadow&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Sacramento&family=Vast+Shadow&display=swap");
+    </style>
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <nav class="navigation-bar">
+      <div>
+        <span id="icon">LB</span>
+        <a href="https://github.com/lornaburns"
+          ><span class="fab fa-github" style="color: #fffb38"></span
+        ></a>
+        <a href="https://www.linkedin.com/in/lorna-burns/"
+          ><span class="fab fa-linkedin" style="color: #fffb38"></span
+        ></a>
+      </div>
+      <ul class="navigation-header">
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="about">
+        <div class="about-main-container">
+          <div class="about-img-container">
+            <img src="./assets/images/avatar2.png" alt="avatar" />
+          </div>
+          <div class="about-bio-container">
+            <h1>Lorna Burns</h1>
+            <h2>future web developer</h2>
+            <h3>
+              I'm studying fullstack development through UNC-Chapel Hill and
+              will receive my Professional Certificate in November 2023. Check
+              out my projects and get in touch!
+            </h3>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <div class="projects-header-container">
+          <h2>Projects</h2>
+        </div>
+
+        <div class="project-main-container">
+          <a href="https://github.com/lornaburns/coding-refactor-horiseon">
+            <div class="project-one border">
+              <div class="description">
+                <h3>Coding Refactor</h3>
+              </div>
+            </div>
+          </a>
+
+          <div class="row-two">
+            <a href="">
+              <div class="project-two border">
+                <div class="description">
+                  <h3>Project 2</h3>
+                </div>
+              </div>
+            </a>
+
+            <a href="">
+              <div class="project-three border">
+                <div class="description">
+                  <h3>Project 3</h3>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="row-three">
+            <a href="">
+              <div class="project-four border">
+                <div class="description">
+                  <h3>Project 4</h3>
+                </div>
+              </div>
+            </a>
+
+            <a href="">
+              <div class="project-five border">
+                <div class="description">
+                  <h3>Project 5</h3>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact">
+      <h3>Contact Me</h3>
+      <div class="container">
+        <form action="action_page.php">
+          <div class="input">
+            <label for="fname">First Name</label>
+            <input
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="First name"
+            />
+          </div>
+
+          <div class="input">
+            <label for="lname">Last Name</label>
+            <input
+              type="text"
+              id="lname"
+              name="lastname"
+              placeholder="Last name"
+            />
+          </div>
+
+          <div class="input">
+            <label for="subject">Subject</label>
+            <textarea
+              id="subject"
+              name="subject"
+              placeholder="Message"
+              style="height: 50px"
+            ></textarea>
+          </div>
+        </form>
+      </div>
+    </footer>
+  </body>
+</html>
